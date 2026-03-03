@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre mí — Arantxa</title>
+
+    <!-- IMPORTANTE: estás dentro de /html, por eso es ../ -->
+    <link rel="stylesheet" href="../css/index.css" />
+    <script src="../js/index.js" defer></script>
+</head>
+
+<body>
+    <div class="page">
+        <!-- NAV (pills derecha) -->
+        <nav class="nav" aria-label="Navegación principal">
+            <a class="nav__pill" href="./index.html">home</a>
+            <a class="nav__pill" href="./habilidades.html">habilidades</a>
+            <a class="nav__pill" href="./proyectos.html">proyectos</a>
+            <a class="nav__pill is-active" href="./sobremi.html">sobre mi</a>
+        </nav>
+
+        <main class="about-page" id="sobre-mi">
+            <div class="about-page__grid">
+                <!-- TEXTO -->
+                <section class="about-page__content" aria-label="Sobre mí">
+                    <h1 class="projects-hero__title">Sobre mi</h1>
+
+                    <p class="about-page__text">
+                        Soy diseñadora UX/UI y desarrolladora front-end. Me meto en todo el proceso, desde entender qué
+                        necesita el usuario hasta escribir el código que lo hace real, porque si no controlo cada parte
+                        me quedo con el gusanillo.
+                    </p>
+
+                    <p class="about-page__text">
+                        Uso Figma para diseñar y HTML, CSS y JavaScript para construir. Soy muy detallista, de las que
+                        ajustan un píxel a las 2 de la mañana y no se arrepienten.
+                    </p>
+
+                    <p class="about-page__text">
+                        Ahora mismo estoy aprendiendo Three.js porque la web convencional se me quedaba pequeña y
+                        necesitaba algo que me volviera a poner nerviosa. La IA también me tiene muy enganchada, no como
+                        buzzword, sino porque cambia de verdad cómo se diseñan las experiencias digitales.
+                    </p>
+
+                    <a class="about-page__link" href="./proyectos.html">ver mis proyectos →</a>
+
+                    <!-- META -->
+                    <div class="about-page__meta" aria-label="Información rápida">
+                        <div>
+                            <span class="meta-label">Disponibilidad</span>
+                            <span class="meta-value">Empleo / Freelance</span>
+                        </div>
+
+                        <div class="footer__rule" aria-hidden="true"></div>
+
+                        <div>
+                            <span class="meta-label">Edad</span>
+                            <span class="meta-value">25</span>
+                        </div>
+
+                        <div class="footer__rule" aria-hidden="true"></div>
+
+                        <div>
+                            <span class="meta-label">Ubicación</span>
+                            <span class="meta-value">España / Remoto</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- IMAGEN -->
+                <aside class="about-page__image" aria-label="Foto">
+                    <img src="../img/arantxa.jpg" alt="Arantxa Navarro" />
+                </aside>
+            </div>
+        </main>
+
+        <!-- Marquee (texto grande de abajo) -->
+        <section class="marquee" aria-label="Titular">
+            <div class="marquee__track">
+                <div class="marquee__group">
+                    <span class="marquee__item">FRONT-END DEVELOPER UX &amp; UI DESIGNER</span>
+                </div>
+
+                <div class="marquee__group" aria-hidden="true">
+                    <span class="marquee__item">FRONT-END DEVELOPER UX &amp; UI DESIGNER</span>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Footer mini (como en tu diseño: contacto + claim) -->
+        <footer class="footer">
+            <div class="footer__left">
+                <a class="pill pill--lime">contacto</a>
+
+                <div class="footer__info">
+                    <div>
+                        <span class="footer__label">Correo</span>
+                        <a class="footer__value" href="mailto:arantxanavarro00@gmail.com">arantxanavarro00@gmail.com</a>
+                    </div>
+
+                    <div class="footer__rule" aria-hidden="true"></div>
+
+                    <div>
+                        <span class="footer__label">Teléfono</span>
+                        <a class="footer__value" href="tel:+34617345090">(+34) 617 345 090</a>
+                    </div>
+
+                    <div class="footer__rule" aria-hidden="true"></div>
+
+                    <div>
+                        <span class="footer__label">LinkedIn</span>
+                        <a class="footer__value" href="https://www.linkedin.com/in/arantxanavarrobarriel"
+                            target="_blank" rel="noreferrer">www.linkedin.com/in/arantxanavarrobarriel</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__right">
+                <p class="footer__claim">
+                    From<br />
+                    design to code<span aria-hidden="true">.</span>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

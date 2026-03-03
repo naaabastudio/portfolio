@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Rediseños — Arantxa</title>
+
+    <link rel="stylesheet" href="../css/index.css" />
+    <script src="../js/index.js" defer></script>
+</head>
+
+<body id="top">
+    <div class="page">
+        <!-- NAV -->
+        <nav class="nav" aria-label="Navegación principal">
+            <a class="nav__pill" href="./index.html">home</a>
+            <a class="nav__pill" href="./habilidades.html">habilidades</a>
+            <a class="nav__pill is-active" href="./proyectos.html">proyectos</a>
+            <a class="nav__pill" href="./sobremi.html">sobre mi</a>
+        </nav>
+
+        <main class="project-detail">
+            <!-- HERO PROYECTO -->
+            <header class="project-detail__hero">
+
+                <!-- COLUMNA IZQUIERDA -->
+                <aside class="project-detail__side">
+                    <a href="./proyectos.html" class="btn btn--lime project-detail__back">atrás</a>
+
+                    <div class="project-detail__meta">
+                        <div class="meta-item">
+                            <span class="meta-item__label">Proyecto</span>
+                            <span class="meta-item__value">master</span>
+                        </div>
+
+                        <div class="footer__rule"></div>
+
+                        <div class="meta-item">
+                            <span class="meta-item__label">Duración</span>
+                            <span class="meta-item__value">1 semana</span>
+                        </div>
+
+                        <div class="footer__rule"></div>
+
+                        <div class="meta-item">
+                            <span class="meta-item__label">Fecha</span>
+                            <span class="meta-item__value">noviembre</span>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- COLUMNA DERECHA -->
+                <section class="project-detail__content">
+                    <span class="project-detail__tag">#uxui</span>
+                    <!-- TITULO -->
+                    <h1 class="skills-hero__title">Rediseños</h1>
+
+                    <!-- TEXTO -->
+                    <div class="project-detail__text">
+                        <p>
+                            He realizado propuestas de rediseño para proyectos como Musihacks e Ikea, partiendo de un
+                            análisis previo de navegación, jerarquía y puntos de fricción. Me he enfocado en crear
+                            experiencias claras, intuitivas y coherentes con la identidad de marca, optimizando la
+                            funcionalidad y el diseño visual. Trabajo desde la investigación hasta el prototipado,
+                            siempre con una visión user-centered.
+                        </p>
+                        <p>
+                            Pasa el ratón por la imagen para ver el antes y después.
+                        </p>
+                    </div>
+                </section>
+            </header>
+
+            <section class="redesigns">
+                <div class="redesigns__viewport">
+                    <div class="redesigns__track" id="redesignsTrack">
+
+                        <!-- SLIDE 1 -->
+                        <article class="redesigns__slide">
+                            <div class="shot" data-shot>
+                                <img class="shot__img shot__img--before" src="../img/musihacks_mal.jpg"
+                                    alt="Musihacks - antes" />
+                                <img class="shot__img shot__img--after" src="../img/musihacks_bien.jpg"
+                                    alt="Musihacks - rediseñado" />
+                            </div>
+                        </article>
+
+                        <!-- SLIDE 2 -->
+                        <article class="redesigns__slide">
+                            <div class="shot" data-shot>
+                                <img class="shot__img shot__img--before" src="../img/ikea_mal1.jpg"
+                                    alt="IKEA - antes" />
+                                <img class="shot__img shot__img--after" src="../img/ikea_bien1.jpg"
+                                    alt="IKEA - rediseñado" />
+                            </div>
+                        </article>
+
+                        <!-- SLIDE 3 -->
+                        <article class="redesigns__slide">
+                            <div class="shot" data-shot>
+                                <img class="shot__img shot__img--before" src="../img/ikea_mal2.jpg"
+                                    alt="IKEA - antes" />
+                                <img class="shot__img shot__img--after" src="../img/ikea_bien2.jpg"
+                                    alt="IKEA - rediseñado" />
+                            </div>
+                        </article>
+
+                    </div>
+
+                    <button class="redesigns__btn redesigns__btn--prev" id="redesignsPrev" type="button"
+                        aria-label="Anterior">‹</button>
+                    <button class="redesigns__btn redesigns__btn--next" id="redesignsNext" type="button"
+                        aria-label="Siguiente">›</button>
+                </div>
+            </section>
+
+
+            <div class="back-to-top">
+                <a href="#top">subir arriba</a>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Innata — Arantxa</title>
+
+  <!-- Tu CSS global -->
+  <link rel="stylesheet" href="../css/index.css" />
+
+  <!-- Tu JS global (si lo usas para drag/scroll etc.) -->
+  <script src="../js/index.js" defer></script>
+</head>
+
+<body id="top">
+  <div class="page">
+    <!-- NAV pills derecha -->
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="nav__pill" href="./index.html">home</a>
+      <a class="nav__pill" href="./habilidades.html">habilidades</a>
+      <a class="nav__pill is-active" href="./proyectos.html">proyectos</a>
+      <a class="nav__pill" href="./sobremi.html">sobre mi</a>
+    </nav>
+
+    <main class="project-detail">
+      <!-- =========================
+             HERO PROYECTO
+        ========================== -->
+      <header class="project-detail__hero">
+        <!-- COLUMNA IZQUIERDA (meta) -->
+        <aside class="project-detail__side">
+          <a href="./proyectos.html" class="btn btn--lime project-detail__back">atrás</a>
+
+          <div class="project-detail__meta">
+            <div class="meta-item">
+              <span class="meta-item__label">Proyecto</span>
+              <span class="meta-item__value">master ux ui</span>
+            </div>
+
+            <div class="footer__rule" aria-hidden="true"></div>
+
+            <div class="meta-item">
+              <span class="meta-item__label">Duración</span>
+              <span class="meta-item__value">4 semanas</span>
+            </div>
+
+            <div class="footer__rule" aria-hidden="true"></div>
+
+            <div class="meta-item">
+              <span class="meta-item__label">Fecha</span>
+              <span class="meta-item__value">20 abril - 15 mayo</span>
+            </div>
+          </div>
+        </aside>
+
+        <!-- COLUMNA DERECHA (contenido) -->
+
+        <section class="project-detail__content project-detail__content--with-video">
+          <div class="project-detail__left">
+            <span class="project-detail__tag">#uxui #programacion</span>
+            <h1 class="skills-hero__title">Innata</h1>
+            <div class="project-detail__text">
+              <p>
+                Innata es una app creada para acompañar a cada paciente en su proceso nutricional con un enfoque basado
+                en
+                la
+                dieta cetogénica y el ayuno. Es una herramienta para seguir una dieta consciente y seguimiento
+                personalizado.
+              </p>
+
+              <p>
+                Desde la app, cada usuario puede acceder a su dieta semanal, visualizar su evolución con fotos de antes,
+                durante y después, y recibir recordatorios adaptados a su plan. Además, incluye contenidos breves y
+                claros
+                sobre temas clave como el impacto de la cetosis, el rol del músculo en la pérdida de grasa o la gestión
+                de
+                electrolitos.
+              </p>
+            </div>
+          </div>
+          <figure class="img-box">
+            <video src="../video/innata.mp4" autoplay muted loop playsinline></video>
+          </figure>
+        </section>
+      </header>
+
+      <!-- =========================
+          (GALERÍA) — HORIZONTAL
+        ========================== -->
+      <section class="project-frame" aria-label="Frame 177">
+        <div class="project-frame__top">
+          <span class="project-frame__code">Diseñar/Prototipo/</span>
+        </div>
+
+        <!-- TRACK horizontal -->
+        <div class="project-frame__track" aria-label="Galería horizontal">
+          <!-- GRUPO 1 -->
+          <article class="project-frame__group">
+            <h3 class="project-frame__title">Onboarding</h3>
+
+            <div class="project-frame__row">
+              <!-- Pon modo imagen y ya sustituyes src -->
+              <img class="project-frame__img" src="../img/inicio1.jpg" alt="Onboarding 1" />
+              <img class="project-frame__img" src="../img/inicio2.jpg" alt="Onboarding 2" />
+              <img class="project-frame__img" src="../img/inicio3.jpg" alt="Onboarding 3" />
+            </div>
+          </article>
+
+          <!-- GRUPO 2 -->
+          <article class="project-frame__group">
+            <h3 class="project-frame__title">Iniciando app</h3>
+
+            <div class="project-frame__row">
+              <img class="project-frame__img" src="../img/onboarding1.jpg" alt="Iniciando app 1" />
+              <img class="project-frame__img" src="../img/onboarding2.jpg" alt="Iniciando app 2" />
+              <img class="project-frame__img" src="../img/onboarding3.jpg" alt="Iniciando app 2" />
+            </div>
+          </article>
+
+          <!-- GRUPO 3 -->
+          <article class="project-frame__group">
+            <h3 class="project-frame__title">Coger cita</h3>
+
+            <div class="project-frame__row">
+              <img class="project-frame__img" src="../img/app1.jpg" alt="Coger cita 1" />
+              <img class="project-frame__img" src="../img/app2.jpg" alt="Coger cita 2" />
+              <img class="project-frame__img" src="../img/app3.jpg" alt="Coger cita 3" />
+            </div>
+          </article>
+        </div>
+
+
+        <!-- =========================
+          PROCESO + DELIVERABLES (desde Figma)
+        ========================== -->
+        <section class="innata-process" aria-label="Proceso Innata">
+          <div class="innata-process__head">
+            <h2 class="innata-process__title">Proceso</h2>
+            <ol class="innata-process__steps">
+              <li>Observar</li>
+              <li>Sintetizar</li>
+              <li>Idear</li>
+              <li>Diseñar</li>
+            </ol>
+          </div>
+
+          <!-- Variables y estilos (bloque ancho) -->
+          <section class="innata-block" aria-label="Variables y estilos">
+            <p class="innata-block__label">
+              <span>Diseñar/Sistema de diseño/</span>
+              <strong>Variables y estilos</strong>
+            </p>
+            <figure class="innata-media innata-media--wide">
+              <img class="innata-media__img" src="../img/diseñar_3.jpg" alt="Variables y estilos (placeholder)"
+                loading="lazy" />
+            </figure>
+          </section>
+
+          <!-- Wireframes (imagen cuadrada a la derecha) -->
+          <section class="innata-block innata-block--grid" aria-label="Wireframes">
+            <div class="innata-block__text">
+              <p class="innata-block__label innata-block__label--stack">
+                <span>Diseñar/</span>
+                <strong>Wireframes</strong>
+              </p>
+            </div>
+
+            <figure class="innata-media innata-media--square">
+              <img class="innata-media__img" src="../img/wireframe.jpg" alt="Wireframes (placeholder)" loading="lazy" />
+            </figure>
+          </section>
+
+          <!-- Testing con usuarios (3 imágenes verticales) -->
+          <section class="innata-block innata-block--grid" aria-label="Testing con usuarios">
+            <div class="innata-block__text">
+              <p class="innata-block__label innata-block__label--stack">
+                <span>Diseñar/</span>
+                <strong>Testing con<br />usuarios</strong>
+              </p>
+            </div>
+
+            <div class="innata-media innata-media--triptych" role="group"
+              aria-label="Testing con usuarios (placeholders)">
+              <img class="innata-media__img innata-media__img--tall" src="../img/testing1.jpg"
+                alt="Testing usuario 1 (placeholder)" loading="lazy" />
+              <img class="innata-media__img innata-media__img--tall" src="../img/testing2.jpg"
+                alt="Testing usuario 2 (placeholder)" loading="lazy" />
+              <img class="innata-media__img innata-media__img--tall" src="../img/testing3.jpg"
+                alt="Testing usuario 3 (placeholder)" loading="lazy" />
+            </div>
+          </section>
+
+          <!-- Componentes (bloque ancho) -->
+          <section class="innata-block" aria-label="Componentes">
+            <p class="innata-block__label">
+              <span>Diseñar/Sistema de diseño/</span>
+              <strong>Componentes</strong>
+            </p>
+
+            <figure class="innata-media innata-media--wide">
+              <img class="innata-media__img" src="../img/componentes.jpg" alt="Componentes (placeholder)"
+                loading="lazy" />
+            </figure>
+          </section>
+        </section>
+      </section>
+      <div class="back-to-top">
+        <a href="#top">subir arriba</a>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
